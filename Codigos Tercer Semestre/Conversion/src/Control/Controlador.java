@@ -35,7 +35,7 @@ public class Controlador implements ActionListener {
            if(!this.objV.getTxtMedida().getText().equals(" ")){
                this.objM.setValor(Double.parseDouble(this.objV.getTxtMedida().getText()));
                this.objV.getTxtaResp().append("El valor de "+objM.getValor()+
-                       "En centimetros es "+objM.convEnCm()+"cms");
+                       " En centimetros es "+objM.convEnCm()+"cms");
            } 
            else
                this.objV.getTxtaResp().append("El valor digitado no es correcto...");
